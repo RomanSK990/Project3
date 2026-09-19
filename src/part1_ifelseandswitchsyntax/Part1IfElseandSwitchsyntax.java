@@ -2,12 +2,12 @@ package part1_ifelseandswitchsyntax;
 
 import java.util.Scanner;
 
-public class Part1IfElsesndSwitchsyntax {
+public class Part1IfElseandSwitchsyntax {
     public static void main(String[] args) {
         // Part 1.1 Use of control statements
         int a = 4;
         if (a > 5) {
-            System.out.println("A is grater than 5");
+            System.out.println("A is greater than 5");
         }
         else {
             System.out.println("A is less than 5");
@@ -34,11 +34,11 @@ public class Part1IfElsesndSwitchsyntax {
             System.out.println("B equals 5");
         }
         else {
-                System.out.println("B is not equals 5");
+                System.out.println("B does not equal 5");
         }
 
         if (b != 5) {
-            System.out.println("B is not equals 5");
+            System.out.println("B does not equal 5");
         }
         else {
             System.out.println("B equals 5");
@@ -62,11 +62,11 @@ public class Part1IfElsesndSwitchsyntax {
             System.out.println("B is less or equals 5");
         }
         else {
-            System.out.println("B is more or equals 5");
+            System.out.println("B is greater than or equal to 5");
         }
 
         if (b >= 5) {
-            System.out.println("B is more or equals 5");
+            System.out.println("B is greater than or equal to 5");
         }
         else {
             System.out.println("B is less or equals 5");
